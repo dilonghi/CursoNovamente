@@ -13,9 +13,15 @@ namespace AloGitHub
             Console.WriteLine(txt);
         }
 
+        static void EscreveNaTelaContinuacao(string txt)
+        {
+            Console.WriteLine(txt);
+        }
+
         public static void Main(string[] args)
         {
-            EscreveNaTela("Primeiro teste de Git");
+            EscreveNaTela("Primeiro teste de Git\n");
+            EscreveNaTelaContinuacao("Versao nova Branch");
             Console.ReadKey();
         }
 
