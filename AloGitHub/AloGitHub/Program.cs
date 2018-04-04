@@ -1,16 +1,18 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace AloGitHub
 {
     class Program
     {
+        static void EscreveNaTela()
+        {
+            Console.WriteLine("Ola Mundo");
+        }
+
         public static void Main(string[] args)
         {
-            Console.Write("Ola Mundo");
+            EscreveNaTela();
+            Console.ReadKey();
         }
     }
 }
