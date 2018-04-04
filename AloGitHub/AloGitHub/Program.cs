@@ -4,14 +4,14 @@ namespace AloGitHub
 {
     class Program
     {
-        static void EscreveNaTela()
+        static void EscreveNaTela(string txt)
         {
-            Console.WriteLine("Ola Mundo");
+            Console.WriteLine(txt);
         }
 
         public static void Main(string[] args)
         {
-            EscreveNaTela();
+            EscreveNaTela("Primeiro teste de Git");
             Console.ReadKey();
         }
     }
